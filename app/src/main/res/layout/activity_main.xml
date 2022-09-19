@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/hatter">
+
+    <SeekBar
+        android:id="@+id/red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="0"
+        android:max="255"
+
+
+
+        />
+    <SeekBar
+        android:id="@+id/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="0"
+        android:max="255"
+        android:layout_marginTop="40sp"
+        android:layout_marginBottom="20sp"
+
+        />
+    <SeekBar
+        android:id="@+id/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp"
+        android:min="0"
+        android:max="255"
+
+        />
+    <TextView
+        android:id="@+id/piros"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Piros: "
+        android:textSize="25sp"
+        android:layout_marginTop="200sp"
+        />
+    <TextView
+        android:id="@+id/zold"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Zöld: "
+        android:textSize="25sp"
+        android:layout_marginTop="300sp"
+        />
+    <TextView
+        android:id="@+id/kek"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Kék: "
+        android:textSize="25sp"
+        android:layout_marginTop="400sp"
+        />
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/szoveg"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="(0,0,0)"
+        android:textSize="50sp"
+        android:layout_alignParentBottom="true"
+
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
